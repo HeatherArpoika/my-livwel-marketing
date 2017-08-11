@@ -1,0 +1,172 @@
+/***** MAIN *****/
+
+	body {
+		font-family: 'Lato', sans-serif;
+		font-size: 16px;
+	}
+
+	.body-container {
+		max-width: 1440px;
+		margin: auto;
+	}
+
+/***** TYPOGRAPHY *****/
+
+	/***** MAIN TYPOGRAPHY *****/
+
+		h1 {
+			font-family: 'Lato', sans-serif;
+			font-size: 2.375rem;
+			color: #515392;
+		}
+
+		h2 {
+			font-family: 'Lato', sans-serif;
+			font-size: 1.875rem;
+			color: #515392;
+		}
+
+		h3 {
+			font-family: 'Lato', sans-serif;
+			font-size: 1.625rem;
+			color: #62C4B0;
+			font-style: italic;
+		}
+
+		.deck-text {
+			font-family: 'Lato', sans-serif;
+			font-size: 1.625rem;
+			color: #515392;
+			font-style: italic;
+		}
+
+		p {
+			font-family: 'Lato', sans-serif;
+			font-size: 1.25rem;
+			color: #4a4a4a;
+			line-height: 1.8125rem;
+		}
+
+	/***** NAVIGATION TYPOGRAPHY *****/
+
+		#menu-1 li a {
+			color: #ffffff;
+			text-transform: uppercase;
+			font-size: 1.25rem;
+		}
+
+		#menu-1 li.sign-in a {
+			color: #62C4B0;
+			text-transform: uppercase;
+			font-size: 1.25rem;
+		}
+
+		#menu-2 li a {
+			color: #515392;
+			text-transform: uppercase;
+			font-size: 1.25rem;
+		}
+
+		li#sign-in a {
+			color: #62C4B0;
+			font-weight: bold;
+			border-left: 1px solid #67699e;
+		}
+
+	/***** HERO TYPOGRAPHY *****/
+
+		.hero-title {
+			font-family: 'Lato', sans-serif;
+			font-size: 2.375rem;
+			color: #ffffff;
+			text-align: center;
+			padding: 8px;
+		}
+
+		.hero-subtitle {
+			font-family: 'Lato', sans-serif;
+			font-size: 1.875rem;
+			color: #ffffff;
+			text-align: center;
+			font-style: italic;
+			padding: 8px;
+		}
+
+		.hero-CTA a {
+			font-family: 'Lato', sans-serif;
+			font-size: 1.25rem;
+			background-color: #62C4B0;
+			color: #515392;
+			font-weight: bold;
+			text-transform: uppercase;
+			padding: 15px 45px 15px 45px;
+			border-radius: 35px;
+		}
+
+
+/***** NAVIGATION *****/
+
+	#logo-home {
+		position: absolute;
+		top: -6px;
+		left: 50%;
+		width: 285px;
+		height: 292px;
+		margin-left: -143px;
+	}
+
+	#menu-1 {
+		background-color: #515392;
+		height: 100px;
+	}
+
+	#menu-2 {
+		background-color: #ededed;
+		height: 75px;
+	}
+
+	#menu-2 li {
+		width: 33%;
+	}
+
+	.menu-left {
+		float: left;
+		text-align: center;
+	}
+
+	.menu-right {
+		float: right;
+		text-align: center;
+	}
+
+	#menu-1 div.menu-left {
+		padding: 0 143px 0 2%;
+	}
+
+	#menu-1 div.menu-right {
+		padding: 0 2% 0 143px;
+	}
+
+	#menu-2 div.menu-left .menu {
+		padding: 0 143px 0 5%;
+	}
+
+	#menu-2 div.menu-right .menu {
+		padding: 0 5% 0 143px;
+	}
+
+
+/***** HERO *****/
+	
+	#hero {
+		height: 795px;
+		background-color: #7E6986;
+		padding: 10% 5%;
+		border-bottom: 10px solid #62C4B0;
+	}
+
+	.hero-CTA {
+		text-align: center;
+		padding: 20px 55px 20px 55px;
+		margin-top: 75px;
+	}
